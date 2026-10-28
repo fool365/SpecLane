@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "run_id": "example-ui",
+  "change_id": "user-list-ui",
+  "workflow_profile": "fast",
+  "scenario": "iteration",
+  "execution_mode": "auto",
+  "ui_mode": "figma_required",
+  "status": "running",
+  "current_step": "code_review",
+  "plan_hash": null,
+  "approval": {
+    "approved": false,
+    "approved_plan_hash": null,
+    "evidence": null
+  },
+  "steps": {
+    "plan_review": {"status": "passed", "attempts": 1},
+    "code_review:native": {"status": "passed", "attempts": 1},
+    "code_review:ocr": {"status": "passed", "attempts": 1},
+    "code_review": {"status": "passed", "attempts": 1},
+    "archive": {"status": "passed", "attempts": 1, "evidence": ["openspec/changes/archive/2026-01-01-figma-ui-change"]}
+  }
+}

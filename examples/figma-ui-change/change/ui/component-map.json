@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "ui_ref_id": "UI-USER-LIST",
+  "mappings": [
+    {
+      "figma_node_id": "42:18",
+      "figma_component": "Button/Primary",
+      "match_kind": "semantic",
+      "strategy": "reuse",
+      "code_component": "Button",
+      "source_path": "src/components/Button.tsx",
+      "confidence": "high",
+      "verified_in_source": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "change_id": "user-list-ui",
+  "ui_mode": "figma_required",
+  "references": [
+    {
+      "id": "UI-USER-LIST",
+      "provider": "figma",
+      "url": "https://www.figma.com/design/EXAMPLE/User-list?node-id=42-15",
+      "file_key": "EXAMPLE",
+      "node_id": "42:15",
+      "route": "/users",
+      "requirement_ids": ["REQ-001"],
+      "states": ["default", "loading", "empty", "error"],
+      "responsive": ["desktop", "mobile"],
+      "validation_status": "valid",
+      "parse_status": "resolved",
+      "content_hash": "sha256:example-design-content"
+    }
+  ]
+}

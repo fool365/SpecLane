@@ -1,0 +1,9 @@
+.auto-dev/
+.agents/skills/
+node_modules/
+coverage/
+.test-tmp/
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

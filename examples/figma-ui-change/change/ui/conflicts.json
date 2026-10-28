@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "conflicts": [
+    {
+      "id": "UI-C001",
+      "ui_ref_id": "UI-USER-LIST",
+      "severity": "P2",
+      "description": "现有表格组件缺少空状态插槽",
+      "proposed_resolution": "局部组合EmptyState组件",
+      "approval_required": false,
+      "status": "resolved",
+      "review_evidence": "component-map.json"
+    }
+  ]
+}

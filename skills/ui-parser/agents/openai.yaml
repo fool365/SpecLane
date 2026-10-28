@@ -1,0 +1,7 @@
+interface:
+  display_name: "SpecLane UI Parser"
+  short_description: "为SpecLane规范化并验证Figma设计上下文和证据"
+  brand_color: "#2563EB"
+  default_prompt: "使用 $ui-parser 为当前 SpecLane UI 任务生成可验证的设计上下文。"
+policy:
+  allow_implicit_invocation: true

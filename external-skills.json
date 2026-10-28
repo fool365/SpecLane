@@ -1,0 +1,16 @@
+{
+  "source": "https://github.com/mattpocock/skills",
+  "required": [
+    "grill-with-docs",
+    "grilling",
+    "domain-modeling"
+  ],
+  "review": {
+    "source": "https://github.com/alibaba/open-code-review",
+    "required": [
+      "open-code-review-delegate"
+    ],
+    "cli_package": "@alibaba-group/open-code-review"
+  },
+  "missing_behavior": "blocked"
+}

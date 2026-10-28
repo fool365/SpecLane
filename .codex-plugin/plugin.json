@@ -1,0 +1,6 @@
+{
+  "name": "speclane",
+  "version": "0.5.0",
+  "description": "面向 Codex 的可恢复、规范驱动开发工作流。",
+  "skills": "./skills/"
+}

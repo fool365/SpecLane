@@ -1,0 +1,20 @@
+{
+  "name": "speclane-marketplace",
+  "interface": {
+    "displayName": "SpecLane"
+  },
+  "plugins": [
+    {
+      "name": "speclane",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
