@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "speclane",
+  "version": "0.5.0",
+  "description": "面向 Codex 的可恢复、规范驱动开发工作流。",
+  "author": {
+    "name": "fool1582"
+  },
+  "repository": "https://gitee.com/fool1582/SpecLane",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "openspec",
+    "workflow",
+    "figma",
+    "quality-gates"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "SpecLane",
+        "shortDescription": "可恢复的规范驱动开发工作流",
+        "longDescription": "从需求澄清、OpenSpec 方案、实现、测试到审查和交付的可恢复开发流程。",
+        "developerName": "fool1582",
+        "category": "Productivity",
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://gitee.com/fool1582/SpecLane",
+        "defaultPrompt": [
+          "使用 $speclane 按规范完成当前开发需求。",
+          "使用 $speclane 先生成方案，等我批准后再开发。"
+        ],
+        "brandColor": "#2563EB"
+      }
+    }
+  }
+}
